@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+    to bottom,
+    #ace0f9,
+    #fff1eb,
+    #dfe2e5,
+    #ace0f9
+  );
+  background-size: cover;
+}
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tab-container {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 2px solid green;
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  align-items: center;
+  flex-wrap: wrap;
+}
+.input {
+  height: 5vh;
+  width: 20vw;
+}
